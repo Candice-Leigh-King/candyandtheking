@@ -1,18 +1,46 @@
+@font-face {font-family: "silver pen";
+src: url("/fonts/Silver Pen.otf");
+
+}
+/* Utility classes */
+
+.bg-image {
+  background-position: center;
+  background-size: contain;
+}
+
 h1 {
-  font-family: modish, sans-serif;
+  font-family: "silver pen";
   font-style: normal;
   font-weight: 400;
-  font-size:2rem;
+  font-size:4rem;
 }
 
 h2 {
-  font-family: modish, sans-serif;
+  font-family: "silver pen";
   font-style: normal;
   font-weight: 400;
-  font-size:1rem;
+  font-size:2.5rem;
+  margin: 0rem;
+
   }
 
-p {font-size: 0.5rem;
-  font-family:
+p {
   color: black;
+  margin: 0.5rem;
+}
+.exploregallery {
+   width: 100%;
+}
+.box {
+  display: block;
+  padding: 2rem 2rem;
+  padding-bottom: 2rem;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  background-position: top;
+  font-family: "silver pen";
+  font-size: 2rem;
+  background-repeat:no-repeat;
 }

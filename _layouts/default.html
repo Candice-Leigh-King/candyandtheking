@@ -12,6 +12,11 @@
 <!-- this is the start of visible page -->
 <body>
 
+{% if page.url == "/" %}
+  {% include headerhome.html %}
+{% else %}
+  {% include headerall.html %}
+{% endif %}
 
 <!-- unique content per page -->
 

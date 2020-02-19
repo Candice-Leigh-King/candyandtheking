@@ -1,35 +1,48 @@
 ---
 layout: default
 ---
-
-{% include headerall.html %}
+<section>
+  <h1> {{page.page-title}} </h1>
+</section>
 <section class="grid">
   <div class="class= col-2">
-    <a href="#">
-      <h2> TITLE </h2>
+    <a href="{{page.left-sidebar-title-link}}">
+      <h2> {{page.left-sidebar-title}} </h2>
     </a>
-    <a href="#">
-      <img src="#" alt="#">
+    <a href="{{page.left-sidebar-img-link}}">
+      <img src="{{page.left-sidebar-img}}" alt="left-sidebar-img-alt">
     </a>
   </div>
 
   <div class="col-4">
-    <a href="#">
-      <h2> TITLE </h2>
+    <a href="page.center-title-link}}">
+      <h2>{{page.center-title}}</h2>
     </a>
-     <a href="#">
-       <img src="#" alt="#">
+     <a href="{{page.center-top-link}}">
+       <img src="{{page.center-top-img}}" alt="center-top-img-alt">
       </a>
-     <img src="#" alt="#">
+      <p>{{page.center-top-p}}</p>
+      <h2> {{center-btm-title}}</h2>
+     <img src="{{page.center-btm-img}}" alt="{{page.center-btm-img-alt}}">
   </div>
 
   <div class="col-4">
-    <a href="#">
-      <h2> TITLE </h2>
+    <div>
+    <a href="{{page.left-title}}">
+      <h2> {{page.left-title}}</h2>
     </a>
-     <a href="#">
-       <img src="#" alt="#">
+     <a href="{{page.right-top-img-link}}">
+       <img src="{{page.right-top-img}}" alt="{{right-top-img-alt}}">
       </a>
-     <img src="#" alt="#">
+     </div>
+      <a href="{{page.btm-title-link}}">
+        <h2> {{page.btm-title}}</h2>
+      </a>
+      <a href="{{page.right-btm-img-link}}">
+        <img src="{{page.right-btm-img}}" alt="{{right-btm-img-alt}}">
+      </a>
+     <div>
+
+     </div>
   </div>
 </section>

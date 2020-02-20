@@ -11,11 +11,19 @@ src: url("/fonts/gloss_and_bloom.ttf");
 [class*=col-] {
   padding: 0 1rem;
 }
+
+.centered {
+  text-align: center;
+}
+
 .grid{
   max-width: 500px;
   margin:0 auto;
 }
 @media(min-width: 1024px){
+  h1 {
+    font-size: 2rem;
+  }
   .grid {
     max-width: 1160px;
     margin: 0 auto;
@@ -144,15 +152,25 @@ p {
     object-fit: cover;
     object-position: center;
   }
-.contact .work-with-us{ text-align: left;
+.contact .work-with-us h2{
+  text-align: center;
+  transform: translateY(50px);
 
 }
-.project .center-section h2 {transform:translateY(170px); }
-.project .center-section {margin-top: -70px;}
-.project .left-section-top {margin-top: -50px;}
-.project .left-section-top h2 {transform: translateY(600px);}
-{}
+.project .center-section h2 {
+  transform:translateY(170px);
 }
+.project .center-section {
+  margin-top: -70px;
+}
+.project .left-section-top {
+  margin-top: -50px;
+}
+.project .left-section-top h2 {
+  transform: translateY(600px);
+}
+.project .center-btm h2 {transform: translateY(40px);}
+
 .exploregallery {
    object-fit: contain;
 }

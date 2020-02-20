@@ -8,8 +8,13 @@ font-family: "gloss_and_bloom";
 src: url("/fonts/gloss_and_bloom.ttf");
 }
 /* Utility classes */
-.margin {
-  margin: 1rem;
+[class*=col-] {
+  padding: 0 1rem;
+}
+
+
+header nav a {
+  padding: 0.3rem;
 }
 
 .bg-image {
@@ -37,18 +42,31 @@ h2 {
   font-family: "silver pen";
   font-style: normal;
   font-weight: 400;
-  font-size:2.5rem;
+  font-size:2.8rem;
   margin: 0rem;
   text-align: center;
+  text-decoration: none;
+  color: black;
 
   }
-
+.explore .center-section p {font-family: "silver pen";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin: 0rem;
+    padding: 0 3rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    transform: translateY(-415px);}
 p {
-  color: black;
+  color: grey;
   margin: 0.5rem;
+  font-family: 'Catamaran', sans-serif;
+
 }
 .exploregallery {
-   width: 100%;
+   object-fit: contain;
 }
 .box {
   display: block;
@@ -64,9 +82,10 @@ p {
 }
 
 /* this is for the newpaper cut on index */
-.container {
+
+.sidebar .container {
   padding: 1rem;
-  background-color: #d5d5d5;
+  background-color: #f6f5f8;
 
 }
 
@@ -86,6 +105,8 @@ nav {
 }
 /* end of newpaper cut */
 
+.logo { }
+
 .background-candyandtheking {
   background-image: url('images/homepagephoto-big-01.png');
   background-size: contain;
@@ -93,4 +114,15 @@ nav {
   background-position: center;
 }
 
-.navhandwriting {font-family:gloss_and_bloom}
+.navhandwriting {
+  font-family:gloss_and_bloom;
+  color: grey;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.right {text-align: right;}
+.center {text-align: center;}
+.margin-bottom-1 {
+  margin-bottom: 1rem;
+}

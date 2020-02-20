@@ -11,7 +11,16 @@ src: url("/fonts/gloss_and_bloom.ttf");
 [class*=col-] {
   padding: 0 1rem;
 }
-
+.grid{
+  max-width: 500px;
+  margin:0 auto;
+}
+@media(min-width: 1024px){
+  .grid {
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+}
 
 header nav a {
   padding: 0.3rem;
@@ -34,17 +43,23 @@ body.home {
 body.meetus {
   background-image: url('images/background-paper-01.jpg');
 }
+.maps-and-routes .maps-note {
+  margin-top: -230px;
+  position: relative;
+  z-index: -5;
+}
 
 .maps-and-routes p {
   font-family: "silver pen";
       font-style: normal;
       font-weight: 400;
-      font-size: 2rem;
+      font-size: 2.5rem;
       margin: 0rem;
-      padding: 0 3rem;
+      padding: 0 6rem;
       text-align: center;
       text-decoration: none;
       color: black;
+      margin-top: 50px;
     }
 
 body.explore .right-section-top h2 {
@@ -129,9 +144,13 @@ p {
     object-fit: cover;
     object-position: center;
   }
+.contact .work-with-us{ text-align: left;
 
-.project .center-section h2 {}
-.project .left-center-top h2 {margin-top: 300;}
+}
+.project .center-section h2 {transform:translateY(170px); }
+.project .center-section {margin-top: -70px;}
+.project .left-section-top {margin-top: -50px;}
+.project .left-section-top h2 {transform: translateY(600px);}
 {}
 }
 .exploregallery {

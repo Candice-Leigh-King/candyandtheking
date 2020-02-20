@@ -89,16 +89,50 @@ h2 {
     text-align: center;
     text-decoration: none;
     color: black;
-    transform: translateY(-415px);}
+    transform: translateY(-415px);
+  }
 
     .bookstore h2{
-      transform: translateY(100px);}
+      transform: translateY(100px);
+    }
+    .bookstore .center-btm {
+      margin-top: 0px;
+    }
+    .bookstore .right-section-top {
+      padding: 0 7rem;
+      margin: -50px;
+    }
+  .bookstore .right-section-btm {
+    padding: 0 6rem;
+    margin-top: 60px;
+  }
 
+.bookstore .right-section-top h2 {
+  transform: translateY(50px);
+  }
+.bookstore .center-section {padding-top: 50px;}
+.bookstore .left-section-top h2 {
+  padding-bottom: 100px;
+}
+.bookstore .left-section-top {
+  margin-top: -100px;
+}
+
+.bookstore .center-section {padding-top: 80px;}
 p {
   color: grey;
   margin: 0.5rem;
   font-family: 'Catamaran', sans-serif;
+}
 
+.travelguides .block-img {
+    object-fit: cover;
+    object-position: center;
+  }
+
+.project .center-section h2 {}
+.project .left-center-top h2 {margin-top: 300;}
+{}
 }
 .exploregallery {
    object-fit: contain;
@@ -160,4 +194,12 @@ nav {
 .center {text-align: center;}
 .margin-bottom-1 {
   margin-bottom: 1rem;
+}
+
+.catamaran {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 2rem;
+  color: grey;
+  font-weight:100;
+  text-transform: uppercase;
 }

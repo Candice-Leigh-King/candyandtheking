@@ -27,9 +27,40 @@ img{
   height: auto;
 }
 
-body {
+body.home {
   background-image: url('images/background-paper-01.jpg');
 }
+
+body.meetus {
+  background-image: url('images/background-paper-01.jpg');
+}
+
+.maps-and-routes p {
+  font-family: "silver pen";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 2rem;
+      margin: 0rem;
+      padding: 0 3rem;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+    }
+
+body.explore .right-section-top h2 {
+  transform: translateY(303px);
+}
+
+body.explore .right-section-btm h2 {
+  transform: translateY(90px);
+}
+body.explore .center-btm {
+  margin-top: -14rem;
+}
+
+footer a {color: grey;
+font-size: 3rem;
+text-align: center;}
 h1 {
   font-family: "silver pen";
   font-style: normal;
@@ -59,6 +90,10 @@ h2 {
     text-decoration: none;
     color: black;
     transform: translateY(-415px);}
+
+    .bookstore h2{
+      transform: translateY(100px);}
+
 p {
   color: grey;
   margin: 0.5rem;

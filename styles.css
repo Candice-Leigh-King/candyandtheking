@@ -1,19 +1,36 @@
-@font-face {font-family: "silver pen";
-src: url("/fonts/Silver Pen.otf");
+@font-face {
+  font-family: "silver pen";
+  src: url("/fonts/Silver Pen.otf");
+}
 
+@font-face {
+font-family: "gloss_and_bloom";
+src: url("/fonts/gloss_and_bloom.ttf");
 }
 /* Utility classes */
+.margin {
+  margin: 1rem;
+}
 
 .bg-image {
   background-position: center;
   background-size: contain;
 }
 
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  background-image: url('images/background-paper-01.jpg');
+}
 h1 {
   font-family: "silver pen";
   font-style: normal;
   font-weight: 400;
   font-size:4rem;
+  text-align: center;
 }
 
 h2 {
@@ -22,6 +39,7 @@ h2 {
   font-weight: 400;
   font-size:2.5rem;
   margin: 0rem;
+  text-align: center;
 
   }
 
@@ -44,3 +62,35 @@ p {
   font-size: 2rem;
   background-repeat:no-repeat;
 }
+
+/* this is for the newpaper cut on index */
+.container {
+  padding: 1rem;
+  background-color: #d5d5d5;
+
+}
+
+a {text-decoration: none;}
+
+nav {
+  font-family: "gloss_and_bloom";
+  font-size: 1rem;
+  color: grey;
+  text-decoration: none;}
+
+.homenav a { color: grey;}
+
+.border {
+  border: 1.5px solid black;
+  padding: 1rem;
+}
+/* end of newpaper cut */
+
+.background-candyandtheking {
+  background-image: url('images/homepagephoto-big-01.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navhandwriting {font-family:gloss_and_bloom}

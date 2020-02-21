@@ -2,13 +2,15 @@
 layout: default
 ---
 <section>
-  <h1> {{page.page-title}} </h1>
+  <a href="{{page.page-link}}">
+    <h1> {{page.page-title}} </h1>
+  </a>
 </section>
 
 <!-- this is the blah blah blah -->
 <section class="grid">
   <div class="col-3_md-12 left-section-top">
-    <a href="{{page.left-sidebar-link}}">
+    <a href="{{page.left-sidebar-link}}" target="_blank">
       <h2> {{page.left-sidebar-title}} </h2>
       <img src="{{page.left-sidebar-img}}" alt="{{left-sidebar-img-alt}}">
     </a>
@@ -18,7 +20,9 @@ layout: default
       <div class="col-6_md-12">
         <div class="center-section">
           <div class="no-margin col-12_md-12">
-            <h1 class= "no-margin"> {{page.bookstore-center-section-h1}}</h1>
+            <a href="{{page-title-link}}">
+              <h1 class= "no-margin"> {{page.bookstore-center-section-h1}}</h1>
+            </a>
           </div>
           <a href="{{page.center-top-link}}">
             <h2>{{page.center-title}}</h2>

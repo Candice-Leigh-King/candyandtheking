@@ -74,7 +74,7 @@ body.meetus {
 
 
 
-.maps-and-routes p {
+.maps-and-routes section p {
   font-family: "silver pen";
       font-style: normal;
       font-weight: 400;
@@ -234,7 +234,20 @@ p {
 
 }
 
-a {text-decoration: none;}
+a {
+  text-decoration: none;
+color:inherit;
+}
+
+.polaroidtext {
+position: absolute;
+bottom: 20px;
+left: 5px;
+right: 5px;
+text-align: center;
+}
+
+.relative {position: relative;}
 
 nav {
   font-family: "gloss_and_bloom";

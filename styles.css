@@ -30,6 +30,11 @@ footer {position: relative;}
 .centered {
   text-align: center;
 }
+.padded {
+  padding: 5%;
+}
+
+
 
 .grid{
   max-width: 500px;
@@ -66,6 +71,36 @@ body.home {
 body.meetus {
   background-image: url('images/background-paper-01.jpg');
 }
+body.post {
+  background-color: #e5dcd5;
+}
+
+body.blog {
+  background-color: #e5dcd5;
+}
+
+.blog-text-box {
+  padding: 1rem;
+  background-color: white;
+  max-width: 900px;
+  margin: auto;
+}
+
+/*  Classes for unique image and text styles  */
+
+
+.float-left {
+  max-width: 300px;
+  float: left;
+  margin-right: 1rem;
+}
+
+.float-right {
+  max-width: 400px;
+  float: right;
+  margin-left: 1rem;
+}
+
 .maps-and-routes .maps-note {
   margin-top: -300px;
   position: relative;
@@ -180,14 +215,18 @@ p {
   transform: translateY(100px);
 
 }
-.contact .clickhere a {
+.contact .clickhere {
   text-decoration: none;
   font-family: gloss_and_bloom;
   color: grey;
-  padding-left: 1rem;
+  padding-left: 6rem;
   padding-right: 1rem;
-  transform: translateY(100px);
+  transform: translateY(-500px);
+  position: absolute;
+}
 
+.contact .clickhere a {
+  padding: 0.5rem;
 }
 .contact form {
   position:absolute;
@@ -262,8 +301,8 @@ nav {
   padding: 1rem;
 }
 /* end of newpaper cut */
-
-.logo { }
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
 
 .background-candyandtheking {
   background-image: url('images/homepagephoto-big-01.png');
@@ -323,7 +362,9 @@ input[type="submit"] {
 form [class*=col-] {
   padding: 5px;
 }
-
+.blogmore {
+  font-family: gloss_and_bloom;
+}
 .email-signup input {
   width: 30%;
   display: inline-block;
@@ -340,6 +381,9 @@ form [class*=col-] {
  form .button {
    width:107%;
  }
+a:hover {
+  color: white;
+  transition: 1s;}
 
  @media(max-width:768px) {
    .email-signup input {

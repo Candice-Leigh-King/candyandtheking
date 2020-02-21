@@ -159,7 +159,7 @@ h2 {
   margin-top: -100px;
 }
 
-.bookstore .center-section {padding-top: 80px;}
+.bookstore .center-section {padding-top: 0px;}
 p {
   color: grey;
   margin: 0.5rem;
@@ -238,7 +238,7 @@ a {
   text-decoration: none;
 color:inherit;
 }
-
+.no-margin {margin: 0px;}
 .polaroidtext {
 position: absolute;
 bottom: 20px;

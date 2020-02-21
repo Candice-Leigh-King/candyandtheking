@@ -15,11 +15,7 @@
 <!-- this is the start of visible page -->
 <body class="{{page.class}}">
 
-{% if page.url == "/" %}
-  {% include headerhome.html %}
-{% else %}
-  {% include headerall.html %}
-{% endif %}
+  {% include header.html %}
 
 <!-- unique content per page -->
 

@@ -37,5 +37,20 @@
   </nav>
   <hr>
 </footer>
+
+<!--  This is my javascript, first jquery then any custom scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+<script>
+
+  $(".hamburger").click(function(){
+
+    $(this).toggleClass('active');
+    $(".mobile-nav").fadeToggle();
+
+  });
+
+</script>
+
 </body>
 </html>

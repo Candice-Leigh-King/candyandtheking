@@ -22,6 +22,39 @@ header nav a {
   padding: 0.3rem;
 }
 
+/* This is the mobile nav */
+
+.active {
+  color: white;
+}
+
+
+.hamburger {
+  position: fixed;
+  font-size: 3rem;
+  line-height: 0.2;
+  right: 1rem;
+  top: 1rem;
+  z-index: 3;
+}
+
+.mobile-nav {
+  display: none;
+  position: fixed;
+  top: 0;
+  left:0;
+  right:0;
+  bottom: 0;
+  background-color: rgba(60,60,65,0.8);
+  padding: 10%;
+}
+.mobile-nav a {
+  color: white;
+  padding: 1rem;
+  display: block;
+  text-decoration: none;
+}
+
 footer {
   position: relative;
   padding: 2%;
@@ -33,6 +66,15 @@ font-size: 3rem;
 text-align: center;}
 .centered {
   text-align: center;
+}
+
+.flex-basic{
+  display: flex;
+flex-direction: column;
+}
+
+.top{
+  order:-3;
 }
 
 h1 {
@@ -79,8 +121,12 @@ img{
   max-width: 500px;
   margin:0 auto;
 }
-@media(min-width: 1024px)
-{
+  .mob-show,
+  .mobile-menu {
+    display: none;
+  }
+/* This is a reverse media query for very big screens */
+@media(min-width: 1024px){
   h1
   {
     font-size: 4rem;
@@ -90,6 +136,20 @@ img{
     margin: 0 auto;
   }
 }
+/* Mobile Responsive - Small gridlex class */
+@media(max-width: 1023px) {
+  .mob-hide {
+    display: none;
+  }
+  .mob-show {
+    display: block;
+  }
+  .background-candyandtheking {
+    min-height: 35rem;
+  }
+
+} /* End medie Query */
+
 
 body.home {
   background-image: url('images/background-paper-01.jpg');
@@ -114,7 +174,12 @@ body.blog {
 }
 
 /*  Classes for unique image and text styles  */
+.vertical-flex-gap-adder{
+  display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 
+}
 
 .float-left {
   max-width: 300px;
@@ -239,6 +304,20 @@ body.explore .center-btm {
   left: 120px;
 }
 
+.project .right-section-top h2{
+  transform: translateY(-71px);
+
+}
+.project .right-section-top {
+padding-top: 0rem;
+padding-left: 4rem;
+padding-right: 4rem;
+margin: 0rem;
+}
+
+.project .paddingnone {
+  padding: 0rem;
+}
 .project .center-section h2 {
   transform:translateY(170px);
 }

@@ -4,7 +4,7 @@
 }
 
 @font-face {
-font-family: "gloss_and_bloom", silver pen;
+font-family: "gloss_and_bloom", Ma Shan Zheng;
 src: url("/fonts/gloss_and_bloom.ttf");
 }
 /* Utility classes */
@@ -132,10 +132,10 @@ img{
 
 /* This is a reverse media query for very big screens */
 @media(min-width: 1024px){
-  h1
-  {
-    font-size: 4rem;
-  }
+h1
+{
+  font-size: 3rem;
+}
 .grid {
     max-width: 1160px;
     margin: 0 auto;
@@ -152,8 +152,7 @@ img{
   .background-candyandtheking {
     min-height: 35rem;
   }
-
-
+h2 {font-size: 1.5rem;}
 } /* End medie Query */
 
 
@@ -297,7 +296,7 @@ body.explore .center-btm {
 }
 .contact .clickhere {
   text-decoration: none;
-  font-family: gloss_and_bloom, silver pen;
+  font-family: gloss_and_bloom;
   color: grey;
   padding-left: 10rem;
   padding-top: 5rem;
@@ -394,7 +393,7 @@ text-align: center;
 .relative {position: relative;}
 
 nav {
-  font-family: "gloss_and_bloom", silver pen;
+  font-family: "gloss_and_bloom";
   font-size: 1rem;
   color: grey;
   text-decoration: none;
@@ -426,7 +425,7 @@ padding
 }
 
 .navhandwriting {
-  font-family:gloss_and_bloom, silver pen;
+  font-family:gloss_and_bloom;
   color: grey;
   font-size: 1rem;
   padding: 1rem;
@@ -477,7 +476,7 @@ form [class*=col-] {
   padding: 5px;
 }
 .blogmore {
-  font-family: gloss_and_bloom, silver pen;
+  font-family: gloss_and_bloom;
 }
 .email-signup input {
   width: 30%;

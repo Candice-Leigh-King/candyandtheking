@@ -331,7 +331,14 @@ margin: 0rem;
   transform: translateY(600px);
 }
 .project .center-btm h2 {transform: translateY(40px);}
+.project .center-btm {
+  transform: translateY(-55px);
+}
 
+.project .right-section-btm {
+  padding: 6rem;
+  text-align: center;
+}
 .exploregallery {
    object-fit: contain;
 }

@@ -4,8 +4,8 @@
 }
 
 @font-face {
-font-family: "gloss";
-src: url("/fonts/gloss.ttf");
+font-family: "Gloss";
+src: url("/fonts/Gloss.ttf");
 }
 /* Utility classes */
 [class*=col-] {

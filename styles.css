@@ -4,7 +4,7 @@
 }
 
 @font-face {
-font-family: "gloss_and_bloom", Ma Shan Zheng;
+font-family: "gloss_and_bloom";
 src: url("/fonts/gloss_and_bloom.ttf");
 }
 /* Utility classes */
@@ -425,7 +425,7 @@ padding
 }
 
 .navhandwriting {
-  font-family:gloss_and_bloom;
+  font-family:gloss_and_bloom, Ma Shan Zheng;
   color: grey;
   font-size: 1rem;
   padding: 1rem;
@@ -476,7 +476,7 @@ form [class*=col-] {
   padding: 5px;
 }
 .blogmore {
-  font-family: gloss_and_bloom;
+  font-family: gloss_and_bloom, Ma Shan Zheng;
 }
 .email-signup input {
   width: 30%;

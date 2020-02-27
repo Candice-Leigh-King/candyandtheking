@@ -120,9 +120,9 @@ img{
   .hamburger {
     position: fixed;
     font-size: 6rem;
-    line-height: 0.2;
-    right: 1rem;
-    top: 1rem;
+    line-height: 0.3;
+    right: 2rem;
+    top: 2rem;
     z-index: 3;
   }
 

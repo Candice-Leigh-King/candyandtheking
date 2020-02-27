@@ -121,8 +121,8 @@ img{
     position: fixed;
     font-size: 6rem;
     line-height: 0.3;
-    right: 2rem;
-    top: 2rem;
+    right: 1rem;
+    top: 1rem;
     z-index: 3;
   }
 

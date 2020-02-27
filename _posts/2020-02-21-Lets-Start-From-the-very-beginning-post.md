@@ -4,9 +4,11 @@ layout: post-layout
 class: post
 featured_image: /images/homepagephoto-big-01.png
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-categories: Let's start from the beginning
+categories: Let's start t the beginning
   - travel
   - food
+  - love
+  - life
 ---
 
 <h2 class="quote float-right"> This is a short <br> test for a pretty little <br> quote about life </h2>

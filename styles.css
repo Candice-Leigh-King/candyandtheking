@@ -75,18 +75,21 @@ h2 {
   color: black;
 }
 .spacing {line-height: 3rem;}
+
 h3 {
   font-family: "gloss", Swanky and Moo Moo;
   font-size: 1rem;
   text-decoration: none;
   color: grey;
   font-weight: normal;
+  text-align: center;
   }
 h4 {
   font-family: "Jellyka";
   font-size: 3rem;
   font-weight: normal;
   margin: inherit;
+  text-align: center;
 }
 p {
   color: grey;
@@ -171,24 +174,10 @@ h1 {
 h2 {font-size: 4rem;
 text-align: center;
 }
+
 h1 {font-size: 6rem;
 text-align: center;
 }
-
-h3 {
-  font-family: "gloss", Swanky and Moo Moo;
-  font-size: 1rem;
-  text-decoration: none;
-  color: grey;
-  font-weight: normal;
-  text-align: center;
-  }
-h4 {
-  font-family: "Jellyka";
-  font-size: 3rem;
-  font-weight: normal;
-  margin: inherit;
-  text-align: center;
 }
 /* End medie Query */
 

@@ -58,7 +58,7 @@ h1 {
   font-family: "Jellyka";
   font-style: normal;
   font-weight: 400;
-  font-size: 4rem;
+  font-size: 6rem;
   text-align: center;
   margin: 1rem;
 
@@ -168,9 +168,29 @@ h1 {
   .background-candyandtheking {
     min-height: 35rem;
   }
-h2 {font-size: 4rem;}
-h1 {font-size: 5rem;}
-} /* End medie Query */
+h2 {font-size: 4rem;
+text-align: center;
+}
+h1 {font-size: 5rem;
+text-align: center;
+}
+
+h3 {
+  font-family: "gloss", Swanky and Moo Moo;
+  font-size: 1rem;
+  text-decoration: none;
+  color: grey;
+  font-weight: normal;
+  text-align: center;
+  }
+h4 {
+  font-family: "Jellyka";
+  font-size: 3rem;
+  font-weight: normal;
+  margin: inherit;
+  text-align: center;
+}
+/* End medie Query */
 
 
 body.home {

@@ -265,7 +265,7 @@ body.explore .center-btm {
 .explore .center-section p {font-family: "Jellyka";
     font-style: normal;
     font-weight: 400;
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin: 0rem;
     padding: 0 3rem;
     text-align: center;
@@ -483,6 +483,7 @@ textarea {
   width: 100%;
   font-size: 1rem;
   vertical-align: top;
+  z-index: 5;
 }
 
 input:focus,
@@ -547,5 +548,6 @@ a:hover h1 {
   max-width: 230px;
   top: 180px;
   left: 120px;
+  z-index: 5;
    }
  }

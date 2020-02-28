@@ -164,17 +164,20 @@ h1 {
     display: block;
   }
   .background-candyandtheking {
-    min-height: 35rem;
+    min-height: 45rem;
   }
-h2 {font-size: 2.5rem;
-text-align: center;
-}
+  .desktop-hide {
+    display: none;}
 
-h1 {font-size: 4rem;
-text-align: center;
-}
-footer {
-  z-index: -5;}
+  h2 {font-size: 2.5rem;
+    text-align: center;
+  }
+
+  h1 {font-size: 4rem;
+    text-align: center;
+  }
+  footer {
+    z-index: -5;}
 }
 /* End medie Query */
 

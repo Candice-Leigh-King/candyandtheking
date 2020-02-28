@@ -69,7 +69,8 @@ h2 {
   text-decoration: none;
   color: black;
 }
-.spacing {line-height: 3rem;}
+.spacing {line-height: 3rem;
+margin: 0rem;}
 
 h3 {
   font-family: "gloss", Swanky and Moo Moo;
@@ -154,7 +155,7 @@ h1 {
     max-width: 1160px;
     margin: 0 auto;
   }
-  
+
 .desktop-hide {
     display: none;}
 }
@@ -167,7 +168,7 @@ h1 {
     display: block;
   }
   .background-candyandtheking {
-    min-height: 45rem;
+    min-height: 35rem;
   }
 
   h2 {font-size: 2.5rem;

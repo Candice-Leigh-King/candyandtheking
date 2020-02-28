@@ -87,7 +87,6 @@ h4 {
   margin: inherit;
   text-align: center;
 }
-.bestblogs h1 {font-size: 4rem;}
 p {
   color: grey;
   margin: 0.5rem;
@@ -120,7 +119,7 @@ img{
   .hamburger {
     position: fixed;
     font-size: 4rem;
-    line-height: 0.3;
+    line-height: 0.2;
     right: 2rem;
     top: 1rem;
     z-index: 3;
@@ -181,6 +180,7 @@ h1 {
   }
   footer {
     z-index: -5;}
+  .bookstore .center-section h1 {display: none;}
 }
 /* End medie Query */
 
@@ -549,7 +549,8 @@ a:hover h1 {
 @media(max-width:1024px) {
   .email-signup input {
    width: 100%;
-   max-width: 100%;}
+   max-width: 100%;
+ }
 
 .contact form {
   position:absolute;

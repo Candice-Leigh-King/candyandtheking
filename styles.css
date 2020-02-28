@@ -106,7 +106,9 @@ img{
 .padded {
   padding: 5%;
 }
-
+.padded2 {
+  padding: 2rem;
+}
 .grid{
   max-width: 500px;
   margin:0 auto;
@@ -177,7 +179,7 @@ h1 {
   footer {
     z-index: -5;}
   .bookstore .center-section h1 {display: none;}
-  .explore .center-section p {transform: translateY(-300px);}
+
 }
 /* End medie Query */
 

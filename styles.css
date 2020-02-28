@@ -1,7 +1,3 @@
-@font-face {
-  font-family: "silver pen";
-  src: url("/fonts/Silver Pen.otf");
-}
 
 @font-face {
 font-family: "Gloss";
@@ -267,7 +263,7 @@ body.explore .center-btm {
   margin-top: -14rem;
 }
 
-.explore .center-section p {font-family: "silver pen";
+.explore .center-section p {font-family: "Jellyka";
     font-style: normal;
     font-weight: 400;
     font-size: 2.5rem;

@@ -154,6 +154,9 @@ h1 {
     max-width: 1160px;
     margin: 0 auto;
   }
+  
+.desktop-hide {
+    display: none;}
 }
 /* Mobile Responsive - Small gridlex class */
 @media(max-width: 1023px) {
@@ -166,8 +169,6 @@ h1 {
   .background-candyandtheking {
     min-height: 45rem;
   }
-  .desktop-hide {
-    display: none;}
 
   h2 {font-size: 2.5rem;
     text-align: center;

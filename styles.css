@@ -177,6 +177,7 @@ h1 {
   footer {
     z-index: -5;}
   .bookstore .center-section h1 {display: none;}
+  .explore .center-section p {transform: translateY(110rem);}
 }
 /* End medie Query */
 
@@ -263,7 +264,7 @@ body.explore .right-section-btm h2 {
 body.explore .center-btm {
   margin-top: -14rem;
 }
-
+.explore .center-section h2 {transform: translateY(7rem);}
 .explore .center-section p {font-family: "Jellyka";
     font-style: normal;
     font-weight: 400;

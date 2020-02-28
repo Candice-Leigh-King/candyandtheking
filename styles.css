@@ -178,6 +178,8 @@ text-align: center;
 h1 {font-size: 6rem;
 text-align: center;
 }
+footer {
+  z-index: -5;}
 }
 /* End medie Query */
 

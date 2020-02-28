@@ -70,7 +70,7 @@ h2 {
   color: black;
 }
 .spacing {line-height: 3rem;
-margin: 0rem;}
+margin: 0rem}
 
 h3 {
   font-family: "gloss", Swanky and Moo Moo;
@@ -82,11 +82,12 @@ h3 {
   }
 h4 {
   font-family: "Jellyka";
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: normal;
   margin: inherit;
   text-align: center;
 }
+.bestblogs h1 {font-size: 4rem;}
 p {
   color: grey;
   margin: 0.5rem;

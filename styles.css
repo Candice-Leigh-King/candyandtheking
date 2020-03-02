@@ -223,7 +223,8 @@ body.blog {
   padding: 1rem;
   background-color: white;
   max-width: 900px;
-  margin: auto; }
+  margin: auto;
+border: solid #e5dcd5 0.6rem; }
 
 .blogmore {
   font-family: "gloss", Swanky and Moo Moo;
@@ -241,10 +242,13 @@ body.blog {
 
 }
 
+
+
 .float-left {
-  max-width: 300px;
+  max-width: 400px;
   float: left;
   margin-right: 1rem;
+  background-color: #e5dcd5;
 }
 
 .float-right {

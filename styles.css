@@ -144,6 +144,7 @@ img{
     background-color: rgba(60,60,65,0.8);
     padding: 10%;
     text-align: center;
+    z-index: 5;
   }
   .mobile-nav a {
     color: white;
@@ -333,7 +334,6 @@ body.explore .center-btm {
 }
 .bookstore .left-section-top {
   margin-top: -100px;
-  z-index: -5;
 }
 
 .bookstore .center-section {padding-top: 0px;}

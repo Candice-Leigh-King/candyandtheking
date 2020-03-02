@@ -489,6 +489,7 @@ nav {
   color: grey;
   font-size: 1rem;
   padding: 1rem;
+  line-height: 2px;
 }
 
 .right {text-align: right;}

@@ -33,9 +33,13 @@ footer {
   margin:2%;
 }
 
-footer a {color: grey;
-font-size: 3rem;
-text-align: center;}
+footer a {
+  color: grey;
+  font-size: 3rem;
+  text-align: center;
+}
+
+
 .centered {
   text-align: center;
 }
@@ -178,8 +182,14 @@ h1 {
   }
   footer {
     z-index: -5;}
+
   .bookstore .center-section h1 {display: none;}
 
+footer a {
+  color: grey;
+  font-size: 1.6rem;
+  text-align: center;
+  }
 }
 /* End medie Query */
 

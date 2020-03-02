@@ -468,8 +468,7 @@ nav {
 .border {
   border: 1.5px solid black;
   padding: 1rem;
-    line-height: 2px
-}
+  
 /* end of newpaper cut */
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.3); }

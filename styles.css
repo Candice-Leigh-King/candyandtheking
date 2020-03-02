@@ -96,6 +96,9 @@ p {
   margin: 0.5rem;
   font-family: 'Catamaran', sans-serif;
 }
+.exploreimage{max-width: 100%;
+height: auto;
+text-align: center;}
 
 .bg-image {
   background-position: center;
@@ -149,13 +152,16 @@ img{
     text-decoration: none;
     font-size: 2rem;
   }
+body.explore .right-section-top h2 {
+  transform: translateY(330px);
+          }
+h1 {
+  font-size: 6rem;}
 
 /* This is a reverse media query for very big screens */
 @media(min-width: 1024px)
 {
-h1 {
-  font-size: 6rem;
-}
+
 
 .grid {
     max-width: 1160px;
@@ -164,6 +170,7 @@ h1 {
 
 .desktop-hide {
     display: none;}
+
 }
 /* Mobile Responsive - Small gridlex class */
 @media(max-width: 1023px) {
@@ -176,6 +183,10 @@ h1 {
   .background-candyandtheking {
     min-height: 35rem;
   }
+
+body.explore .right-section-top h2 {
+  transform: translateY(250px);
+}
 
   h1 {font-size: 4rem;
     text-align: center;
@@ -192,7 +203,6 @@ footer a {
   }
 }
 /* End medie Query */
-
 
 body.home {
   background-image: url('images/background-paper-01.jpg');
@@ -266,9 +276,7 @@ body.blog {
       transform: translateY(20px);
     }
 
-body.explore .right-section-top h2 {
-  transform: translateY(303px);
-}
+
 
 body.explore .right-section-btm h2 {
   transform: translateY(90px);
@@ -283,11 +291,12 @@ body.explore .center-btm {
     font-weight: 400;
     font-size: 3rem;
     margin: 0rem;
-    padding: 0 3rem;
+    padding: 0 4rem;
     text-align: center;
     text-decoration: none;
     color: black;
-    transform: translateY(-415px);
+    transform: translateY(-360px);
+
   }
 
     .bookstore h2{

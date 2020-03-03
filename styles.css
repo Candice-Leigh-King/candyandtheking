@@ -346,12 +346,12 @@ body.explore .center-btm {
 
 .contact .work-with-us {
   position: relative;
-  
+
 }
 
 .contact .work-with-us h2{
   text-align: center;
-  transform: translateY(100px);
+  padding: 10%;
 
 }
 .contact .clickhere {

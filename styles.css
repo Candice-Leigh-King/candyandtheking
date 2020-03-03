@@ -346,14 +346,18 @@ body.explore .center-btm {
 
 .contact .work-with-us {
   position: relative;
+  padding: 15%;
 
 }
 
 .contact .work-with-us h2{
   text-align: center;
-  padding: 10%;
+  transform: translateY(-8rem);
+  padding: 20%;
 
 }
+
+.contact
 .contact .clickhere {
   text-decoration: none;
   font-family: "gloss", Swanky and Moo Moo;
@@ -575,7 +579,7 @@ a:hover h1 {
    width: 100%;
    max-width: 100%;
  }
-
+h4 {font-size: 3rem;}
 .contact form {
   position:absolute;
   max-width: 230px;

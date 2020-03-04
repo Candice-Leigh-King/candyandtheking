@@ -160,9 +160,14 @@ h1 {
   font-size: 6rem;}
 
 /* This is a reverse media query for very big screens */
-@media(min-width: 1024px)
-{
+@media(min-width: 1024px) {
 
+.maps-and-routes .maps-note {
+  margin-top: -200px;
+  position: relative;
+  z-index: -5;
+  padding: 0rem
+}
 
 .grid {
     max-width: 1160px;
@@ -175,6 +180,7 @@ h1 {
 }
 /* Mobile Responsive - Small gridlex class */
 @media(max-width: 1023px) {
+
   .mob-hide {
     display: none;
   }
@@ -189,11 +195,9 @@ body.explore .right-section-top h2 {
   transform: translateY(250px);
 }
 
-  h1 {font-size: 4rem;
+  h1 {font-size: 4.6rem;
     text-align: center;
   }
-  footer {
-    z-index: -5;}
 
   .bookstore .center-section h1 {display: none;}
 
@@ -202,6 +206,14 @@ footer a {
   font-size: 1.6rem;
   text-align: center;
   }
+
+.maps-and-routes .maps-note {
+  margin-top: -300px;
+  position: relative;
+  z-index: -5;
+  padding: 0rem
+
+}
 }
 /* End medie Query */
 
@@ -258,27 +270,18 @@ border: solid #e5dcd5 0.6rem; }
   margin-left: 1rem;
 }
 
-.maps-and-routes .maps-note {
-  margin-top: -400px;
-  position: relative;
-  z-index: -5;
-  padding: 0rem
-}
-
-
 
 .maps-and-routes section p {
-  font-family: "silver pen";
+  font-family: "Jellyka";
       font-style: normal;
       font-weight: 400;
-      font-size: 2.5rem;
+      font-size: 2.8rem;
       margin: 0rem;
-      padding: 0 6rem;
+      padding: 0 4rem;
       text-align: center;
       text-decoration: none;
       color: black;
-      margin-top: 70px;
-      transform: translateY(20px);
+      line-height: 2rem;
     }
 
 

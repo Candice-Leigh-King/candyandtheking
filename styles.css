@@ -559,7 +559,8 @@ form [class*=col-] {
     font-family: 'Amatic SC', cursive;
 }
  form .button {
-   width:107%;
+   width:111%;
+   object-fit: fill;
  }
 .home a:hover {
   color: white;

@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>{{page.title}}</title>
-  <!-- Gridlex -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css"></link>
-  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400&display=swap" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" type="image/png" href="/images/browser-icon-candy-and-the-king-01.png">
-  <meta name= "description" content="{{page.meta-description}}">
+  <head>
+    <title>{{page.title}}</title>
+      <!-- Gridlex -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css"></link>
+      <!-- google fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo&display=swap" rel="stylesheet">
 
-  <!-- our own custom stylesheet -->
-  <link rel="stylesheet" href="/styles.css"/>
+      <!-- icons -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+
+      <!-- meta tags  -->
+      <meta name="google-site-verification" content="OrXiqpLAYW66n20XsZIttR0LrQCm262zlzwy1tLRUYs" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" type="image/png" href="/images/browser-icon-candy-and-the-king-01.png">
+      <meta name= "description" content="{{page.meta-description}}">
+
+      <!-- our own custom stylesheet -->
+      <link rel="stylesheet" href="/styles.css"/>
 
 
-</head>
+  </head>
 
 <!-- this is the start of visible page -->
-<body class="{{page.class}}">
+  <body class="{{page.class}}">
 
   {% include header.html %}
 
@@ -27,35 +33,35 @@
 {{content}}
 
 <!-- then of visible page -->
-<footer class="col-12 center">
-  <hr>
-  <nav class="inline socials">
-    <a href="https://www.facebook.com/candy.and.the.king/" target="_blank">
-      <i class="fab fa-facebook-square"></i>
-    </a>
-    <a href="https://www.instagram.com/candy_and_the_king/" target="_blank">
-      <i class="fab fa-instagram"></i>
-    </a>
-    <a href="https://www.youtube.com/channel/UCzqnx2C9vn72mlxpa4l2oFA" target="_blank">
-      <i class="fab fa-youtube"></i>
-    </a>
-  </nav>
-  <hr>
+  <footer class="col-12 center">
+    <hr>
+    <nav class="inline socials">
+      <a href="https://www.facebook.com/candy.and.the.king/" target="_blank">
+        <i class="fab fa-facebook-square"></i>
+      </a>
+      <a href="https://www.instagram.com/candy_and_the_king/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.youtube.com/channel/UCzqnx2C9vn72mlxpa4l2oFA" target="_blank">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </nav>
+    <hr>
 </footer>
 
-<!--  This is my javascript, first jquery then any custom scripts -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!--  This is my javascript, first jquery then any custom scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-<script>
+  <script>
 
-  $(".hamburger").click(function(){
+    $(".hamburger").click(function(){
 
-    $(this).toggleClass('active');
-    $(".mobile-nav").fadeToggle();
+      $(this).toggleClass('active');
+      $(".mobile-nav").fadeToggle();
 
-  });
+    });
 
 </script>
 
-</body>
+  </body>
 </html>
